@@ -1,6 +1,7 @@
 source :rubygems
 
 # Add your run time dependencies here
+gem "jsmin"
 
 group :test do
   gem "ZenTest"
@@ -8,6 +9,7 @@ group :test do
   gem "bundler"
   gem "rspec"
   gem "diff-lcs"
+
   case
   when defined?(RUBY_ENGINE) && RUBY_ENGINE == 'rbx'
     # Skip it

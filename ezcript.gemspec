@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency("ZenTest", ">= 4.5.0")
   s.add_development_dependency("rake", ">= 0.8.7")
   s.add_development_dependency("bundler", ">= 1.0.12")
+  s.add_development_dependency("jsmin", ">= 1.0.1")
 
   s.require_path = 'lib'
   s.files = %w(README.md Rakefile) + Dir.glob("lib/**/*")
